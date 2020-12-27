@@ -1,0 +1,7 @@
+Server API
+    Set timer (linux epoch time,)
+
+browser
+    on set timer
+    on timer finished //will be calculated on browser
+    add time // calculate a new Etime and call set timer // will cause an on set timer event
